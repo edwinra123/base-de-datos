@@ -1,0 +1,98 @@
+
+.contact-page{
+    width: 100%;
+    display: inline-flex;
+}
+body{
+    overflow-y: hidden;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+}
+.container{
+    padding: 60px 50px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+#fondo-left{
+    margin-left: -8px;
+    height: 100vh;
+    overflow-y: hidden;
+    z-index: 999;
+    opacity: 2;
+    position: relative;
+    width: 80%;
+}
+#form{
+    width: 100%;
+}
+.form-control{
+    
+    padding: 4px 0 5px;
+    border: 0;
+    box-sizing: content-box;
+    background: none;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-right: 12px;
+    padding-bottom: 15px;
+    padding-left: 12px;
+    font-family: 'SF Pro Display', sans-serif;
+    
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    color: rgb(158, 158, 159);
+    border: 1px solid rgb(237, 237, 237);
+}
+input:focus{
+    border: 1px solid rgb(237, 237, 237);
+    outline: none;
+}
+.s6{
+    font-size: 18px;
+    font-weight: 700;
+    color: #4589FF;
+    line-height: 1.5;
+}
+.ds{
+    font-size: 32px;
+    font-family: 'SF Pro Display', sans-serif;
+    color: #000;
+    line-height: 48px;
+    margin-left: 180px;
+}
+#as2{
+    margin-bottom: 20px;
+    font-size: 18px;
+    margin-left: 117px;
+}
+.s2{
+    font-family: 'SF Pro Display', sans-serif;
+    color: #000;
+    margin-bottom: 20px;
+}
+.col-sm-6, .col-sm-12{
+    display: inline-flex;
+    margin-left: 10px;
+}
+.col-sm-3,.col-sm-7{
+    display: inline-flex;
+    margin-left: 10px;
+}
+.btn{
+    margin-left: 140px;
+    color: #fff;
+    background-color: #4589ff;
+    width: 400px;
+    min-width: 64px;
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.2;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    height: 56px;
+    padding: 6px 16px;
+}

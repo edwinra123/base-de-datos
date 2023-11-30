@@ -1,0 +1,470 @@
+.page-wrapper{
+    
+    width: 100%;
+    position: absolute ;
+    margin-top: 61px;
+    display: inline-flex;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.menu-left{
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    height: 100vh;
+    background-color: white;
+    border-bottom: 1px solid rgb(230, 235, 241);
+    border-right: 1px solid rgb(230, 235, 241);
+}
+.inner-page-hero{
+    
+    display: inline-flex;
+
+}
+.container_slime{
+ 
+    display: inline-flex;
+    background-color: #fff;
+}
+
+.img_a{
+    background-color:#e6ebf1 ;
+    height: 144px;
+    width: 100%;
+}
+.modal{
+    display: none;
+}
+.fia{
+    
+    width: 65px;
+    height: 65px;
+    margin-left: 1.24rem;
+   box-shadow:0 10px 15px -3px rgba(0, 0, 0, 0.1),0 4px 6px -2px rgba(0, 0, 0, 0.05) ;
+   border-radius: 9999px;
+  background-color: #f7f8f9;
+}
+.img_r{
+    width:65px;
+    height: 65px;
+    border-radius: 9999px;
+}
+.logo_a{
+    margin-top: -25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(230, 235, 241);
+}
+#tu {
+   
+    font-weight: 800;
+   
+    margin-top: -40px;
+    position: relative;
+    
+    margin-left: 1rem;
+}
+
+.dq {
+    font-size: 12px;
+    font-family: 'SF Pro Display', sans-serif;
+    width: 200px;
+    margin-top:-1rem ;
+    margin-right: 1.75rem;
+    margin-left: 1rem;
+    font-weight: 400;
+    line-height: 1.83;
+    letter-spacing: normal;
+    color: rgb(46, 44, 54);
+}
+#saq {
+    line-height: 1.42;
+    letter-spacing: -0.24px;
+    color:#2e2c36 ;
+    position: relative;
+    margin-right: 1.75rem;
+    font-size: 24px;
+    margin-bottom: 29px;
+    font-family: 'SF Pro Display', sans-serif;
+    margin-left: 1rem;
+}
+a{
+    color:#2e2c36 ;
+}
+#ccss{
+    margin-top: 1rem;
+    margin-inline-end: 0px;
+    margin-bottom: 0px;
+    margin-inline-start: 0px;
+    width: 200px;
+    margin-left: 1.4rem;
+    
+    border-radius: 20px;
+    border: 1px solid #e6ebf1 ;
+}
+
+#text_d{
+    color: rgb(134, 141, 151);
+    font-weight: 400;
+    line-height: 1.71;
+    font-size: 14px;
+    
+    letter-spacing: normal;
+}
+.fa-clock, .fa-person-biking{
+    margin-left: 5px;
+}
+.relojw2{
+    font-size: 13px;
+    font-weight: 800;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: rgb(0, 0, 0);
+    font-family: 'SF Pro Display', sans-serif;
+    margin-left: 5px;
+}
+.fa-star{
+    color:#F4D03F;
+    margin-right: 4px;
+}
+#chackra{
+    font-family: 'SF Pro Display', sans-serif;
+
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+#sdasdq{
+    display: flex;
+    margin-left: 40px;
+    margin-bottom: 35px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e6ebf1;
+}
+.container_slime{
+   
+}
+.widget-heading{
+   
+
+}
+.widget-cart{
+    
+}
+.widget-title{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'SF Pro Display', sans-serif;
+
+    padding: 20px;
+}
+.rest-logo, #as{
+    display: inline-flex;
+    
+}
+#as{
+    width: 500px;
+}
+.rest-logo{
+    width: 150px;
+    height: 150px;
+}
+#product_aaa{
+    margin-top: 1.5rem;
+    margin-left: 1.25rem;
+    border-radius: 1.5rem;
+    width: 100px;
+    box-shadow:0 4px 6px -1px rgba(0, 0, 0, 0.1),0 2px 4px -1px rgba(0, 0, 0, 0.06) ;
+    height: 100px;
+    border: 2px solid rgb(255, 255, 255);
+
+}
+.text_de{
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0;
+    margin-bottom: -10px;
+
+}
+.form{
+    margin-top: -30px;
+}
+.desc{
+    font-family: 'SF Pro Display', sans-serif;
+    color: #6a696e;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.71;
+    font-size: 14px;
+  
+}
+.price{
+    font-family: 'SF Pro Display', sans-serif;
+    line-height: 1.71;
+    font-size: 14px;
+    color: #2e2c36;
+    font-weight: 800;
+    margin-left: 10px;
+}
+.fa-tags{
+    color: rgb(255, 174, 0);
+    font-size: 15px;
+    margin-right: 5px;
+}
+.b-r-0{
+    
+    height: 18px;
+    text-align: center;
+    color: #6a696e;
+    padding-top: 3px;
+    border: none;
+}
+.buo{
+    display: flex;
+    margin-left: 20px;
+    width: 130px;
+    
+    height: 25px;
+    border: 1px solid rgb(230, 235, 241);
+}
+.buo,.price{
+    display: inline-flex;
+    
+}
+.fa-minus{
+    
+    
+    margin-left: 15px;
+    margin-right: -20px;
+    margin-top: 5px;
+}
+.fa-plus{
+    margin-left: 15px;
+    margin-right: 20px;
+    margin-top: 5px;
+    
+}
+.btn2{
+    background-color:  rgb(41, 216, 132);
+    border: none;
+    padding: 5px;
+    padding-right: 14px;
+    padding-left: 14px;
+    font-family: 'SF Pro Display', sans-serif;
+
+    border-radius: 20px;
+    color: #fff;
+}
+.otro{
+
+    
+    border-left: 1px solid rgb(230, 235, 241);
+    box-shadow: rgb(230, 235, 241) -1px -1px 0px 0px;
+    background-color: rgb(247, 248, 249);
+    
+    right: 0px;
+    
+    max-width: 400px;
+    width: 100%;
+    z-index: 998;
+}
+.header_canasta{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0px;
+    border-bottom: 1px solid rgb(230, 235, 241);
+}
+.descro{
+    margin-top: 20px;
+    width: 100%;
+    
+    border-top: 1px solid rgb(230, 235, 241) ;
+    
+    background-color: #fff;
+    
+}
+.resta_name{
+    padding: 16px;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 1.63;
+    width: 100%;
+    color: rgb(46, 44, 54);
+    font-family: 'SF Pro Display', sans-serif;
+    display: inline-flex;
+    border-bottom: 1px solid rgb(230, 235, 241) ;
+}
+.s2132{
+    padding-top: 10px;
+}
+.car_img, .s2132{
+    display: inline-flex;
+    
+}
+.car_img{
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-right: 1rem;
+    border-radius: 50%;
+
+}
+#product_aaa2{
+    height: 56px;
+    width: 56px;
+    border-radius: 0.5rem;
+    flex-shrink: 0;
+    margin-left: 5px;
+    
+    margin-right: 20px;
+}
+.inline-f{
+    display: inline-flex;
+}
+.title-row{
+    
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 1.63;
+    width: 100%;
+    color: rgb(46, 44, 54);
+    font-family: 'SF Pro Display', sans-serif;
+    display: inline-flex;
+    border-bottom: 1px solid rgb(230, 235, 241) ;
+}
+.form-control{
+    border: none;
+   
+    font-size: 14px;
+  
+    font-weight: 800;
+    line-height: 1.83;
+    letter-spacing: normal;
+    color: rgb(46, 44, 54);
+    font-family: 'SF Pro Display', sans-serif;
+    margin-left: 80px;
+}
+.line{
+    padding: 1rem;
+}
+#w2{
+    margin-top: 21px;
+}
+.line{
+    width: 100%;
+}
+.form-control2{
+    margin-left:15px;
+    width: 20px;
+   text-align: center;
+   font-family: 'SF Pro Display', sans-serif;
+
+   border: none;
+}
+.pull-right{
+   margin-left: 14px;
+}
+#s123{
+    margin-top: 1px;
+}
+#manje{
+    
+    margin-left: 10px;
+    display: inline-flex;
+    width: 100px;
+  
+    background: white;
+    border-radius: 16px;
+    border: 1px solid rgb(230, 235, 241);
+    padding: 0.45rem;
+    display: flex;
+    
+}
+.btn3{
+    background-color: #2acf86;
+    display: inline-flex;
+    appearance: none;
+    
+    user-select: none;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    border-radius: 0.5rem;
+    font-weight: 800;
+    color: #fff;
+    padding: 1rem;
+    font-family: 'SF Pro Display', sans-serif;
+
+    max-width: 15rem;
+    
+    width: 100%;
+    
+}
+#aw12{
+    margin-right: 35px;
+}
+#asd12{
+    font-weight: 300;
+    margin-right: 5px;
+}
+#a{
+    float: left;
+    outline-offset: 2px;
+    line-height: 1.2;
+    color: rgb(106, 105, 110);;
+    font-size: 24px;
+    margin-top: 12px;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+#boton_pagar{
+    margin-top: -17px;
+    background-color: #fff;
+    padding:1rem ;
+    width: 100%;
+    border-bottom: 1px solid rgb(230, 235, 241);
+}
+#no_pago{
+    background: rgb(255, 255, 255); 
+    width: 100%;
+    margin-inline: auto;
+    max-width: 60ch;
+    padding-inline: 1rem;
+    height: 100vh;
+    padding: 1rem;
+}
+#car_a{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background: rgb(247, 248, 249);
+    border-radius: 100%;
+    height: 4rem;
+    width: 4rem;
+    margin: auto;
+}
+#a21{
+    font-size: 22px;
+    color:rgb(106, 105, 110);
+}
+.s2{
+    width: auto;
+    text-align: center;
+    font-family: 'SF Pro Display', sans-serif;
+
+}

@@ -1,0 +1,330 @@
+#header{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 61px;
+    box-shadow: rgb(230, 235, 241) 0px 1px 0px 0px;
+    background: white;
+    z-index: 1000;
+    font-family: 'SF Pro Display', sans-serif;
+
+}
+.row{
+    width: 450px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    align-self: flex-start;
+    position: sticky;
+    
+    margin-left: 1rem;
+    flex: 4 1 0%;
+}
+.title{
+    
+    font-size: 20px;
+    font-family: 'SF Pro Display', sans-serif;
+
+}
+body{
+    background-color: rgb(247, 248, 249);
+    margin: 0;
+    padding: 0;
+}
+.page-wrapper{
+    margin-top: 62px;
+   
+
+}
+.display{
+    margin-top: 32px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.display2{
+    max-width: 1100px;
+    margin: 40px 1rem 90px;
+    flex-direction: row;
+    margin-bottom: 0px;
+
+}
+.widget{
+    
+    font-family: 'SF Pro Display', sans-serif;
+
+    
+}
+form{
+    display: block;
+    
+}
+.cart-totals-title{
+    border: 1px solid #e6ebf1;
+    border-radius: 8px 8px 0px 0px;
+    background-color: #fff;
+    
+}
+.cart_title{
+    font-size: 20px;
+    padding-left: 14px;
+    font-family: 'SF Pro Display', sans-serif;
+    
+    font-weight: 800;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: rgb(46, 44, 54);
+}
+.cart-totals-fields{
+    padding: 16px;
+    border-top: none;
+    border: 1px solid rgb(230, 235, 241);
+    height: auto;
+    border-radius: 0px 0px 8px 8px ;
+
+}
+#fila{
+    flex-direction: row;
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+}
+#item1{
+    font-size: 16px;
+    margin-right: auto;
+   
+    line-height: 1.63;
+    letter-spacing: normal;
+    color: rgb(46, 44, 54);
+    font-family: 'SF Pro Display', sans-serif;
+
+}
+.as{
+    font-weight: 800;
+}
+#price_pr{
+    font-size: 16px;
+    
+    line-height: 1.63;
+    letter-spacing: normal;
+    color: rgb(46, 44, 54);
+    font-family: 'SF Pro Display', sans-serif;
+}
+#miDiv {
+    display: none; /* Ocultar el div por defecto */
+    background-color: #fff;
+    position: relative;
+    height: auto;
+    
+}
+#mostrarDiv{
+    color: #29d884;
+    cursor: pointer;
+    outline: 2px solid transparent;
+    font-weight: 800;
+    letter-spacing: 0;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 12px;
+}
+.boton_pago{
+    margin-left:0.2rem ;
+    background-color: rgb(41, 216, 132);
+    color: rgb(255, 255, 255);
+    font-family: 'SF Pro Display', sans-serif;
+    padding: 10px;
+    width: 451px;
+    height: 48px;
+    font-size: 16px;
+    line-height: 1.63;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 800;
+}
+#dirrecion{
+    display: block;
+    width: 700px;
+    margin-top: 40px;
+    margin-left: 3rem;
+    
+    height: 1000px;
+    flex-direction: row;
+}
+.panel2, .d123{
+    display: inline-flex;
+}
+
+.dirrecion_panel1{
+    padding: 16px;
+    background-color: white;
+    width: 667px;
+    height: 40px;
+   
+    
+    max-width: 700px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border: 1px solid rgb(230, 235, 241);
+}
+.sy2,#container_img3{
+    display: inline-block;
+}
+#separador{
+    height: 50px;
+}
+.a-p{
+    font-size: 20px;
+    padding: 3px;
+    margin-top: 3px;
+    font-weight: 800;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: rgb(46, 44, 54);
+    background-color: white;
+    font-family: 'SF Pro Display', sans-serif;
+
+}
+#sep{
+    height: 1px;
+    background-color: rgb(230, 235, 241);
+}
+#title_e{
+    display: flex;
+}
+.sy2{
+    margin-top: 6px;
+}
+.r{
+    margin-left: 250px;
+    height: 20px;
+    margin-top: 6px;
+    width: 20px;
+}
+ .r input[type="radio"]:checked {
+    background-color: rgb(46, 44, 54); 
+}
+
+#panel-d2{
+    width: 667px;
+    padding: 16px;
+    border: 1px solid rgb(230, 235, 241);
+    margin-top: 0;
+    background-color: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius:8px ;
+}
+.t_d{
+    font-weight: 800;
+    line-height: 1.63;
+    letter-spacing: normal;
+    color: rgb(46, 44, 54);
+    font-family: 'SF Pro Display', sans-serif;
+
+
+}
+.opciones{
+    margin-top: 10px;
+    
+}
+.w223{
+    
+    font-weight: 400;
+    line-height: 1.71;
+    font-size: 12px;
+    letter-spacing: normal;
+    color: rgb(46, 44, 54);
+    font-family: 'SF Pro Display', sans-serif;
+}
+.input:hover{
+    border: none;
+}
+.input{
+    height: 48px;
+    font-family: Nunito;
+    font-weight: 400;
+    width: 100%;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+    box-sizing: border-box;
+    color: rgb(46, 44, 54);
+    background-color: rgb(247, 248, 249);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(230, 235, 241);
+    padding: 12px 20px 12px 12px;
+    caret-color: rgb(41, 216, 132);
+}
+.a-p, .fa-circle-check{
+    display: inline-flex;
+}
+.fa-circle-check{
+    margin-right: 10px;
+    font-size: 26px;
+    margin-top: 11px;
+    color: rgb(33, 177, 108);
+}
+#panel-d{
+    padding: 16px 0px;
+    font-family: 'SF Pro Display', sans-serif;
+
+    display: flex;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.efectivo{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 12px;
+    border-radius: inherit;
+    border-left: 4px solid rgb(41, 216, 132)
+}
+#title_e{
+    font-family: 'SF Pro Display', sans-serif;
+
+  
+}
+
+#container_img3{
+    margin-right: 12px;
+    width: 32px;
+    height: 32px;
+}
+.container_img{
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 0;
+    border: none;
+    margin: auto;
+    display: block;
+    width: 0;
+    height: 0;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.aaqqq{
+    display: block;
+    padding-left: 0;
+    width: 400px;
+    border-radius: 8px;
+    border: 1px solid rgb(179, 185, 194);
+}

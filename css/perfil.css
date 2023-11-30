@@ -1,0 +1,559 @@
+#perfil{
+    position: fixed;
+    display: flex;
+    right: 50px;
+    height: 56px;
+    font-family: 'SF Pro Display', sans-serif;
+    margin-top: -43px;
+}
+.fa-location-dot{
+    color: rgb(255, 68, 31);
+    margin-top:17px ;
+    margin-right: 10px;
+}
+#location{
+    margin-top: 19px;
+    font-weight: 800;
+    font-size: 14px;
+    color: rgb(46,44,54);
+}
+#ae3e{
+    color: rgb(46,44,54);
+    text-decoration: none;
+}
+.fa-angle-down{
+    color: #b8b4b4;
+    margin-left: 5px;
+    margin-top:20px ;
+}
+#compras{
+    margin-top: 13px;
+    margin-left: 2rem;
+    height: 28px;
+    width: 62px;
+    background-color: #0CC665;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    flex-grow: 0;
+}
+.fa-cart-shopping{
+    margin-top: 8px;
+    margin-left: 14px;
+    font-size: 12px;
+    color: #fff;
+}
+#comprasid{
+    margin-top: 6px;
+    font-size: 14px;
+    color: #fff;
+    margin-left: 7px;
+}
+#perfildiv{
+    background: #fafaf8;
+    padding: 40px 0;
+    min-height: 120vh;
+    
+}
+
+#separador{
+    display: inline-block;
+    border-left: 1px solid #dfdddd;
+    margin: 12px 16px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    min-height: 25px;
+}
+#perfilsection{
+    padding-top: 74px;
+    width: 20%;
+    float: left;
+    background-color: #fafaf8;
+    flex-direction: column;
+    
+}
+#figureimg{
+    display: flex;
+    height: 100px;
+   
+    cursor: pointer;
+    position: relative;
+    background-color: #fff;
+    border-bottom: 1px solid #e5edef;
+    
+}
+#perfiloptions {
+   margin-top: 0;
+   list-style: none;
+    width: 84%;
+    background-color: #fff;
+    display: inline-block;
+    vertical-align: top;
+    
+   
+    box-shadow: 0 32px 32px -10px rgba(112,105,103,.09), 0 16px 16px -10px rgba(112,105,103,.07), 0 8px 8px -10px rgba(112,105,103,.04), 0 4px 4px -10px rgba(112,105,103,.02), 0 2px 4px -10px rgba(112,105,103,.01);
+
+}
+#perfiloptions:hover{
+    color: #0CC665;
+}
+.optionsp {
+    border-bottom: 1px solid #e5edef;
+    margin-left: -38px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+}
+#perfil2{
+    width: 1240px;
+    margin: 0 80px;
+    padding: 0px 20px 0 px 20px;
+}
+.fa-user{
+    margin-top: 20px;
+    margin-left: 18px;
+    font-size: 25px;
+    color: rgb(255, 68, 31);
+}
+.optionsp:hover{
+    color: #0cc665;
+    text-decoration: none;
+}
+#p1, #p2, #p3 ,#p4 ,#p5, #p6{
+    text-decoration: none;
+    color: #7d7d7d;
+    font-family: 'SF Pro Display', sans-serif;
+    margin-top: 1px;
+    display: block;
+    
+}
+#uytt{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    
+    margin-right: 10px;
+    border-radius: 50%;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .03), 0 4px 4px rgba(0, 0, 0, .03);
+
+}
+#perfilname{
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    color: #9faab7;
+    display: block;
+    font-size: 12px;
+    font-family: 'SF Pro Display', sans-serif;
+    letter-spacing: 0;
+}
+#perfilname1{
+    margin-top: 45px;
+    margin-left: -40px;
+    font-family: 'SF Pro Display', sans-serif;
+    display: block;
+    color: #333;
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: 0;
+}
+.fa-wrench, .fa-mobile , .fa-circle-info ,  .fa-rotate-right, .fa-money-bill{
+    color: #0CC665;
+    margin-right:15px ;
+    font-size: 12px;
+}
+
+.fa-bell{
+    margin-right: 17px;
+    color: #0CC665;
+    font-size: 12px;
+    margin-left: 1px;
+}
+.seccion{
+    display: none;
+}
+.mostrar {
+    display: block;
+    float: left;
+}
+.mostrar{
+    width: calc(80%-20px);
+    margin-left: 20px;
+    border-radius: 8px;
+    padding: 20px;
+    background: #fff;
+    display: inline-block;
+   margin-top: 74px;
+   box-shadow: 0 32px 32px -10px rgba(112,105,103,.09), 0 16px 16px -10px rgba(112,105,103,.07), 0 8px 8px -10px rgba(112,105,103,.04), 0 4px 4px -10px rgba(112,105,103,.02), 0 2px 4px -10px rgba(112,105,103,.01);
+   font-family: 'SF Pro Display', sans-serif;
+
+
+}
+#forms{
+    font-family: 'SF Pro Display', sans-serif;
+   
+}
+#sectiontex{
+    margin-bottom:25px;
+    padding: 0 10px;
+    color: #332927;
+    display: block;
+    font-size: 16px;
+    letter-spacing: 0;
+    font-weight: 600;
+}
+#perfilname6{
+    width: 400px;
+    padding: 15px 10px;
+    border-bottom: 1px solid #e5edef;
+    appearance: none;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    text-shadow: 0 0 0 #000;
+    font-family: 'SF Pro Display', sans-serif;
+
+    letter-spacing: 2;
+    font-size: 16px;
+}
+#perfilname5{
+    width: 400px;
+    padding: 15px 10px;
+    border-bottom: 1px solid #e5edef;
+    appearance: none;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    text-shadow: 0 0 0 #000;
+    font-family: 'SF Pro Display', sans-serif;
+
+    letter-spacing: 2;
+    font-size: 16px;
+}
+#perfilname3{
+    width: 400px;
+    padding: 15px 10px;
+    border-bottom: 1px solid #e5edef;
+    appearance: none;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    text-shadow: 0 0 0 #000;
+    font-family: 'SF Pro Display', sans-serif;
+
+    letter-spacing: 2;
+    font-size: 16px;
+}
+#perfilname4{
+    width: 400px;
+    padding: 15px 10px;
+    border-bottom: 1px solid #e5edef;
+    appearance: none;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    text-shadow: 0 0 0 #000;
+    font-family: 'SF Pro Display', sans-serif;
+
+    letter-spacing: 2;
+    font-size: 16px;
+}
+#context{
+    width: 40%;
+    float: left;
+    border: none;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    position: relative;
+}
+#context2{
+    width: 40%;
+    float: left;
+    border: none;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    position: relative;
+}
+
+#primer_nombre{
+    display: block;
+    color: #c7c7c7;
+    border: none;
+}
+#seccion2{
+    box-shadow: 0 32px 32px -10px rgba(112,105,103,.09), 0 16px 16px -10px rgba(112,105,103,.07), 0 8px 8px -10px rgba(112,105,103,.04), 0 4px 4px -10px rgba(112,105,103,.02), 0 2px 4px -10px rgba(112,105,103,.01);
+    font-family: 'SF Pro Display', sans-serif;
+ }
+ #text_metodos{
+     margin-bottom: 20px;
+ }
+ #metodostitle{
+     text-align: center;
+     border-bottom: 1px solid #332927;
+     cursor: pointer;
+     align-items: center;
+     padding-bottom: 10px;
+     flex: 1;
+     font-weight: 400;
+     white-space: nowrap;
+     padding-left: 150px;
+     padding-right: 150px;
+ }
+ #deudastitle{
+     text-align: center;
+     border-bottom: 1px solid #332927;
+     cursor: pointer;
+     align-items: center;
+     padding-bottom: 10px;
+     flex: 1;
+    padding-left: 150px;
+     white-space: nowrap;
+     font-weight: 400;
+     padding-right: 150px;
+ 
+ }
+ .hidden {
+     display: none;
+ }
+ #metodostitle.active {
+     color: #0cc665;
+     border-bottom-color: #0cc665;
+ }
+ 
+ #deudastitle.active {
+     color: #0cc665;
+     border-bottom-color: #0cc665;
+ }
+ #metodospago{
+     padding-top: 10px;
+     height: 20.5rem;
+     display: inline-flex;
+ }
+ #mostrardeudas{
+     padding-top: 10px;
+     height: 20.5rem;
+ }
+ .fa-credit-card{
+     margin-right: 5px;
+ }
+ .fa-dollar-sign{
+     margin-right:5px ;
+ }
+ #metodospago{
+     padding-top: 30px;
+ }
+ #agregar{
+     display: block;
+     align-items: center;
+     justify-content: center;
+     flex-direction: row;
+     border-radius: 15px;
+     border: 1px solid #0cc665;
+     height: 150px;
+     font-family: Poppins-SemiBold,Helvetica,Arial,sans-serif;
+     cursor: pointer;
+     margin-right: 20px;
+     width: 220px;
+     background-color: #fff;
+ }
+ .fa-plus{
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+     padding: 10px;
+     box-shadow: 0 4px 20px 0 #000;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: #0cc665;
+     flex-direction: row;
+     font-size: 17px;
+     padding-top: 12px;
+     
+ }
+ #efectivo{
+     display: block;
+     align-items: center;
+     justify-content: center;
+     flex-direction: row;
+     border-radius: 15px;
+     margin-left: 30px;
+     height: 150px;
+     font-family: Poppins-SemiBold,Helvetica,Arial,sans-serif;
+     cursor: pointer;
+     width: 220px;
+     border: none;
+     background: linear-gradient(135deg, rgb(13, 168, 125) 0%, rgb(47, 216, 162) 100%);
+ }
+ .efectivoicon{
+     color: #fff;
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+     padding: 10px;
+     box-shadow: 0 4px 20px 0 #000;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: row;
+     font-size: 17px;
+     padding-top: 12px;
+ }
+ #titletarjeta{
+    width: 860px;
+    margin-bottom: 20px;
+    color: #332927; 
+    
+    border-bottom: 1px solid #332927;
+ }
+ #retroceder{
+     border: none;
+     cursor: pointer;
+     font-size: 16px;
+        font-family: 'SF Pro Display', sans-serif;
+     letter-spacing: 1.2;
+     background: transparent;
+     color: #332927; 
+     font-weight: 100;
+ }
+ #titletarjeta2{
+     margin-top: 10px;
+     margin-bottom: 20px;
+     margin-left: 10px;
+     font-size: 18px;
+     font-weight: 600;
+      font-family: 'SF Pro Display', sans-serif;
+ }
+ #tark{
+     
+ 
+ }
+ #buttontarjetas{
+     border: 1px solid #e5e5e4;
+     border-radius: 15px;
+     margin-bottom: 10px;
+     padding: 10px;
+     cursor: pointer;
+     width: 430px;
+ }
+ #gdg{
+     
+     cursor: pointer;
+     list-style: none;
+ }
+ #icontawd{
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+     flex-direction: row;
+     cursor: pointer;
+ 
+ }
+ #gava101 {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    margin-top: 16px;
+    font-size: 16px;
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    line-height: 1.63;
+    display: inline;
+    margin-left: 7px;
+    letter-spacing: normal;
+    color: rgb(46, 44, 54);
+    font-family: 'SF Pro Display', sans-serif;
+
+ }
+ 
+ #icontarjet{
+    display: flex;
+    cursor: pointer;
+
+ 
+ }
+ .inici{
+    text-decoration: none;
+    color: #000;
+ }
+ #w131{
+     margin-left: 6px;
+     margin-top: 6px;
+     font-weight: 500;
+     cursor: pointer;
+ }
+ #header_menu2{
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    background-color: #FFFFFF;
+    padding: 5px 40px;
+    border-bottom: 1px solid #e5edef;
+ }
+ #bancos{
+     margin-top: 20px;
+     display: flex;
+     align-items: stretch;
+     justify-content: flex-start;
+     flex-direction: row;
+     cursor: pointer;
+ }
+ #logobanco{
+     cursor: pointer;
+     width: 25px;
+     height: 25px;
+     display: flex;
+     margin-right: 5px;
+     justify-content: center;
+     align-items: center;
+     flex-direction: row;
+ }
+ body{
+    overflow-x: hidden;
+    background: #fafaf8;
+    margin: 0;
+    padding: 0;
+ }
+ #logout-button{
+     border: none;
+     background: transparent;
+     font-family: 'SF Pro Display', sans-serif;
+     color: #000;
+     margin-top: 18px;
+     font-weight: 700;
+     font-size: 15px;
+ }
+#perfilname2{
+    width: 400px;
+    padding: 15px 10px;
+    border-bottom: 1px solid #e5edef;
+    appearance: none;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    text-shadow: 0 0 0 #000;
+    font-family: 'SF Pro Display', sans-serif;
+
+    letter-spacing: 2;
+    font-size: 16px;
+}
+#perfilname:focus{
+    outline: none;
+    border-bottom: 1px solid #e5edef;
+    appearance: none;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+input:focus {
+    outline: none;
+
+  }
+#segundo_nombre{
+    display: block;
+    color: #c7c7c7;
+    border: none;
+}
